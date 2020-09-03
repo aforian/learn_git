@@ -11,3 +11,10 @@
 * `git commit` ： 把暫存區的內容移至儲存庫
   * `git commit -a` ： 直接把檔案從工作目錄移至儲存庫
   * `git commit -m <message>` ： 直接輸入 commit 的訊息
+* `git log` ： 檢視 Git 記錄日誌
+  * `git log --oneline` ： 只列出 Git 簡略序號與 Commit 訊息
+  * `git log --graph` ： 較圖像化的方式列出 Git 日誌
+  * `git log --author="<author>"` : 作者為 `author` 的 Commit
+  * `git log --author="<author1\|author2>"` : 作者為 `author1` , `author2` 的 Commit
+  * `git log --grep="<keyword>"` : Commit 訊息包含為 `keyword` 的 Commit (分大小寫)
+  * `git log --since="<start_at>" --until="<end_at>"` ： 過濾訊息為 start_at 到 end_at 的 Commit
