@@ -18,3 +18,6 @@
   * `git log --author="<author1\|author2>"` : 作者為 `author1` , `author2` 的 Commit
   * `git log --grep="<keyword>"` : Commit 訊息包含為 `keyword` 的 Commit (分大小寫)
   * `git log --since="<start_at>" --until="<end_at>"` ： 過濾訊息為 start_at 到 end_at 的 Commit
+* `$ git rm <file_name>` ： 刪除 file_name 檔案，並同時將修改加至 Git 暫存區
+  * `$ git rm <file_name> --cached` ： 將 file_name 檔案從 Git 的版本控管中移除
+* `$ git mv <old_name> <new_name>` ：將名為 old_name 的檔案更名為 new_name，並將修改加至暫存區
